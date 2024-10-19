@@ -305,7 +305,7 @@ z-index: 1000;
     line-height: 2.5rem !important;
 }
 
-.main-doctors{
+.main-mentors{
     padding: 2rem 7%;
     background-image: url(images/backgroung-pattern-3.png);
     background-color: #ffffff;
@@ -315,19 +315,19 @@ z-index: 1000;
     background-position: center;
     background-repeat: no-repeat;
 }
-.doctors-heading{
+.mentors-heading{
     font-size: 30px;
     text-align: center;
     margin: 4rem;
     color: var(--maincolor);
 }
-.main-inner-doctor{
+.main-inner-mentor{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 6rem;
 }
-.doc-poster{
+.mentor-poster{
     flex: 1 1 250px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
@@ -335,24 +335,24 @@ z-index: 1000;
     position: relative;
     
 }
-.doc-poster img{
+.mentor-poster img{
     width: 100%;
     border: 0.7rem solid var(--maincolor);
 }
-.doc-poster:hover img{
+.mentor-poster:hover img{
     border-radius: 0 50px 0 0;
 }
-.doc-icons{
+.mentor-icons{
     position: absolute;
     left: -100%;
     top: 10%;
     transition: 0.5s;
 }
-.doc-poster:hover .doc-icons{
+.mentor-poster:hover .doc-icons{
     left: 5%;
 }
 
-.doc-icons i{
+.mentor-icons i{
     font-size: 2rem;
     margin: 0.5rem;
     border: 1px solid var(--secondcolor);
@@ -363,7 +363,7 @@ z-index: 1000;
     
 }
 
-.doc-poster::after{
+.mentor-poster::after{
     content: "";
     
     position: absolute;
@@ -375,36 +375,36 @@ z-index: 1000;
     bottom: -200px;
     transition: 0.5s;
 }
-.doc-poster:hover:after{
+.mentor-poster:hover:after{
     bottom: -100px;
 }
 
-.doc-details{
+.mentor-details{
  text-align: center;
  z-index: 2;
  bottom: -30px;
  left: 40%;
 
 }
-.doc-details h2{
+.mentor-details h2{
     color: black;
     font-size: 25px;
     padding: 2rem 0;
 
 }
 
-.doc-details i{
+.mentor-details i{
     padding: 0.5rem;
     font-size: 2.5rem;
     color: var(--maincolor);
     cursor: pointer;
 }
-.doc-details i:hover{
+.mentor-details i:hover{
     color: var(--secondcolor);
     transform: scale(1.2);
 }
 
-.doc-poster:hover .doc-details{
+.mentor-poster:hover .mentor-details{
     bottom: 10px;
 }
 .our-service{
@@ -502,6 +502,7 @@ z-index: 1000;
     color: white;
     font-size: 25px;
 }
+
 .link a{
     display: block;
     text-align: center;

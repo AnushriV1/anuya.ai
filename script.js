@@ -44,8 +44,7 @@ function submitBooking() {
         // Show a pop-up notification
         alert('Your slot is booked successfully.');
 
-        // Redirect to a new page after pressing Okay
-        window.location.href = 'newPage.html'; // Change 'newPage.html' to your desired URL
+       
     } else {
         alert('Please select a time slot before submitting.'); // Alert if no slot is selected
     }
